@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial Narrow", sans-serif;
+}
+
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+}
+
+li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.active {
+    background-color: rgb(240, 240, 240);
+    color: #333;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel {
+    background-color: #ccc;
+    padding: 2rem;
+    height: 20rem;
+    width: auto ;
+}
+
+.h2one {
+    text-align: center;
+    font-size: 18pt;
+}
+
+span {
+    font-size: 12pt;
+}
+
+section {
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    background-color: #ccc;
+    padding: 2rem;
+    height: 20rem;
+    width: 30%;
+    border: 0  ;
+
+
+}
+
+form {
+    border-top: 0.25rem solid grey;
+    margin-top: 2rem;
+}
+
+input, textarea {
+    display: block;
+    width: 80%;
+    padding: 0.5rem;
+    margin: 1.25rem auto;
+}
+
+
+@media screen and (max-width: 961px) {
+    .carousel{
+        display: none;
+    }
+    article{
+        display:none;
+    }
+
+    .h2one{
+        font-size: 25pt;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+    .h2two {
+        display: flex;
+        justify-content: center;
+        margin-top: 7rem;
+        font-size: 25pt;
+    }
+}
